@@ -9,7 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Host.ConfigureLogging(logging =>
 {
-    logging.ClearProviders();
     logging.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logs"));
 });
 
