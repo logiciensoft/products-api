@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Products.Models\Products.Models.csproj" />
+    <ProjectReference Include="..\Products.Providers\Products.Providers.csproj" />
+  </ItemGroup>
+
 </Project>
